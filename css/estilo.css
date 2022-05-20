@@ -5,9 +5,18 @@ body{
     background-color:#DDA0DD ;
 }
 
+.menu{
+    background-color: #fff;
+    padding: 2%;
+
+.itens_menu{
+    
+}
+
+
 .fundo_diferente{
     background-image: linear-gradient(to right, #DDA0DD , #fff);
-  }
+}
   
 
 .img_topo{
