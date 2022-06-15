@@ -11,6 +11,10 @@ body{
     padding-bottom: 1%;
 }
 
+.img_logo{
+    width: 15%;
+}
+
 .menu, footer{
     background-color:#500850(206, 114, 224);
     padding: 1.5%;
@@ -68,7 +72,7 @@ section a:hover{
 }
 
 .img_corpo{
-    width: 50%;
+    width: 40%;
 }
 
 figure{
@@ -83,14 +87,14 @@ figure{
 h1{
     text-align: center;
     color:#05000a ;
-    font: size 2em; ;
+    font-size: 3em;
 }
 
 h2{
     text-align: center;
-    color:#8A2BE2;
-    font-size: 1.5em;
-    margin-bottom: 2%;
+    color:#000000;
+    font-size: 2em;
+    margin-bottom: 1%;
   }
 
 
@@ -140,14 +144,14 @@ section{
 
   .direita{
     float:right;
-    width: 1%;
-    margin-left: 1-%;
+    width: 15%;
+    margin-left: 3%;
   
   }
   
   .esquerda{
     float: left;
-    width: 1%;   
+    width: 15%;   
     margin-right: 1%;
 }
 
