@@ -18,6 +18,7 @@ body{
 .menu, footer{
     background-color:#500850(206, 114, 224);
     padding: 1.5%;
+    font-family: 'Edu SA Beginner', cursive ;
 }
 
 .itens_menu{
@@ -88,6 +89,7 @@ h1{
     text-align: center;
     color:#05000a ;
     font-size: 3em;
+    font-family: 'Dancing Script' , cursive;
 }
 
 h2{
@@ -95,6 +97,7 @@ h2{
     color:#000000;
     font-size: 2em;
     margin-bottom: 1%;
+    font-family: 'Dancing Script' , cursive;
   }
 
 
@@ -102,7 +105,8 @@ p{
     font-size: 2em;
     color:#8A2BE2;
     text-align: justify;
-    text-indent: 40px;    
+    text-indent: 40px;
+    font-family: EduVICWANTBeginner-VariableFont_wght;    
 }
 
 .cinema > p{ 
@@ -155,3 +159,22 @@ section{
     margin-right: 1%;
 }
 
+table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2%;
+}
+
+
+
+td,th{
+  border: 5px inset #550086c2;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+ @font-face {
+   font-family: 'EduVICWANTBeginner-VariableFont_wght';
+   src: url('../fonts/EduVICWANTBeginner-VariableFont_wght.ttf');
+ } 
