@@ -163,18 +163,43 @@ table{
   border-collapse: collapse;
   width: 100%;
   margin-top: 2%;
+  font-family: EduVICWANTBeginner-VariableFont_wght;   
 }
 
 
 
 td,th{
   border: 5px inset #550086c2;
-  padding-top: 1%;
+  padding-top: 2%;
   padding-bottom: 1%;
   text-align: center;
+  border-style: dotted;
+  font-family: EduVICWANTBeginner-VariableFont_wght;
 }
 
  @font-face {
    font-family: 'EduVICWANTBeginner-VariableFont_wght';
    src: url('../fonts/EduVICWANTBeginner-VariableFont_wght.ttf');
  } 
+
+ tr:nth-child(even) {
+  background-color: #FF69B4;
+}
+
+td:first-child{
+  width: 40%;
+}
+
+td:first-child + td{
+  width: 60%;
+}
+
+audio::-webkit-media-controls-panel{
+  background-color:#FFC0CB!important;
+  }
+
+  audio{
+    width: 70%;
+  }
+
+
