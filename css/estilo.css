@@ -271,8 +271,28 @@ audio::-webkit-media-controls-panel{
      
     }
   
-   
-  
+    header{
+      padding: 1.5%;  
+      font-family: 'Patrick Hand', cursive;
+      background-color: #F08080;
+      position: relative;
+    }
+
+    .fixo{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .banner{
+      margin-top: 25%;
+    }
+
+    
+
+
+    
     
   }
 
