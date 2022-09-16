@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'Caveat-VariableFont_wght',cursive;
+  src: url('../fonts/EduVICWANTBeginner-VariableFont_wght.ttf');
+} 
 
 html{ 
     scroll-behavior: smooth;
+}
+
+body{
+  background-color:#DDA0DD ;
 }
 
 header{
@@ -26,10 +34,20 @@ header{
   width: 30%;
 }
 
+.logo{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
 footer{   
   background-color: rgba(128, 128, 128, 0.3); 
   padding: 1.5%;  
-  font-family: 'Patrick Hand', cursive;  
+  font-family: 'Caveat-VariableFont_wght', cursive;  
+}
+
+.itens_menu{
+  line-height: 1.5;
+  text-align: center;
 }
 
 .itens_menu a{
@@ -39,21 +57,35 @@ footer{
 .itens_menu a:link, .itens_menu a:visited{ 
   color: #FFF;
   text-decoration: none;
-  font-family:  'Patrick Hand', cursive; 
+  font-family:'Caveat-VariableFont_wght', cursive; 
 }  
 /* mouse over link */
 .itens_menu a:hover {
-  color: #fff;
-  padding: 0.8%;    
-  background-color: rgba(161, 56, 105, 0.3); 
+  border: 5px solid	#d31794;
+  color: #d31794;
+  padding: 15px 30px;
+  text-align: center;
   text-decoration: none;
-  border-radius: 15%;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 
  /* selected link */
 .itens_menu a:active {
-  color: #FFF;
+  background-color: rgb(255, 255, 255);
+  border: #FFFFFF;
+  color: #000000;
+  padding: 15px 30px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 
 section a:link{
@@ -65,7 +97,7 @@ color: #fff;
 }
 
 section a:hover{
-color: #696969;
+color: #db24ad;
 }
 
 .fundo_diferente{
@@ -113,7 +145,7 @@ p{
   color:#8A2BE2;
   text-align: justify;
   text-indent: 40px;
-  font-family: 'Patrick Hand', cursive;     
+  font-family: 'Caveat', cursive;     
 }
 
 .parag_cinema > p{ 
@@ -171,7 +203,7 @@ table{
   border-collapse: collapse;
   width: 100%;
   margin-top: 2%;
-  font-family:'Patrick Hand', cursive;   
+  font-family:'Caveat-VariableFont_wght', cursive;   
 }
 
 audio{
@@ -189,7 +221,7 @@ td,th{
   padding-bottom: 1%;
   text-align: center;
   border-style: dotted;
-  font-family: 'Patrick Hand', cursive; 
+  font-family: 'Caveat-VariableFont_wght', cursive; 
 }
 
 tr:nth-child(even) {
@@ -219,7 +251,7 @@ audio::-webkit-media-controls-panel{
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-    font-family: 'Patrick Hand', cursive; 
+    font-family: 'Caveat-VariableFont_wght', cursive; 
   }
 
   input[type=text], select, textarea, input[type=ff], input[type=sf] {
@@ -228,7 +260,7 @@ audio::-webkit-media-controls-panel{
     border: 1px solid #FF69B4
     border-radius: 15px;
     resize: vertical;
-    font-family: 'Patrick Hand', cursive; 
+    font-family: 'Caveat-VariableFont_wght', cursive; 
   }
 
   .col-25{
@@ -325,13 +357,8 @@ audio::-webkit-media-controls-panel{
   margin-top: 10%;
 }
 
-body{
-  background-color:#DDA0DD ;
-}
 
- @font-face {
-   font-family: 'EduVICWANTBeginner-VariableFont_wght',cursive;
-   src: url('../fonts/EduVICWANTBeginner-VariableFont_wght.ttf');
- } 
+
+ 
 
  
